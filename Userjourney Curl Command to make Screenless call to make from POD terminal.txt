@@ -1,0 +1,59 @@
+curl --location --insecure --request POST 'https://bps.da-saas-non-prod-5c242edb92654eb0843b1e523ed399a4.apps.appcanvas.net/services/v1/applications/CreditEvaluation' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImVzMjU2Lmp3dC5zaWduLjIwMTcwNDAxLjcifQ.eyJzdWIiOiI4NjI2YWIwMTJmYTk3MmZmZmI2MWYzMmNmMmM4YjA1YjQzM2RmN2FiIiwiZmlyc3RuYW1lIjoiTW9jayIsInpvbmVpbmZvIjoiRXRjL1VUQyIsImNsaWVudElkIjoiNGZhY2FmOTA0YzZiNDlhYWI4N2E5NTA3NzI4OGZmIiwicm9sZXMiOlsiRVhQRVJJQU5fR0xPQkFMX0FETUlOIiwiQ0xJRU5UX1NZU1RFTV9BRE1JTiIsIlVOREVSV1JJVEVSXzEiLCJVTkRFUldSSVRJTkdfTUFOQUdFUiIsIlNUVURJT19BRE1JTklTVFJBVE9SIl0sImlzcyI6InRva2VuLXNlcnZpY2UiLCJ1c2VySWQiOiJhZG1Ac2hhbGluaXNhYXNBcHIwOC5jb20iLCJsYXN0bmFtZSI6Ik9rdGEiLCJhdWQiOiJzYWFzIiwibmJmIjoxNTg2NzY2NTMwLCJwZXJtaXNzaW9ucyI6WyJGb3JjZUxvZ291dC1Vc2VyIiwiVmlldy1FV0FDUyIsIlZpZXctQnJhbmNoUm9sZXMiLCJWaWV3LVVzZXIiLCJDcmVhdGUtQnJhbmNoUm9sZXMiLCJBY2Nlc3MtUG93ZXJjdXJ2ZVNlY3VyaXR5IiwiVmlldy1SZXBvcnQiLCJWaWV3LU9wZXJhdGlvblJlcG9ydCIsIlZpZXctRGVjaXNpb25TdHJhdGVneVJlcG9ydCIsIlZpZXctVXNlclJlcG9ydCIsIkNvbmZpZ3VyZS1SZXBvcnQiLCJMaXN0LVB1Ymxpc2hlZENvbmZpZ3VyYXRpb25EZXRhaWxzIiwiUHVibGlzaC1Db25maWd1cmF0aW9uIiwiRGVwbG95LVB1Ymxpc2hlZENvbmZpZ3VyYXRpb24iLCJWaWV3LVB1Ymxpc2hlZENvbmZpZ3VyYXRpb24iLCJQcm9tb3RlLVB1Ymxpc2hlZENvbmZpZ3VyYXRpb24iLCJDcmVhdGUtQ3JlZGVudGlhbHMiLCJDcmVhdGUtU2NoZWR1bGUiLCJHZXQtU2NoZWR1bGUiLCJHZXQtU2NoZWR1bGVkSm9icyIsIlVwZGF0ZS1TY2hlZHVsZSIsIkNhbmNlbC1TY2hlZHVsZSIsIkNyZWF0ZS1DbGllbnREYXRhIiwiUmV0cnktQ2xpZW50RGF0YSIsIlVwZGF0ZS1DbGllbnREYXRhIiwiVXBkYXRlLUNsaWVudERhdGFTY2hlZHVsZSIsIkdldC1DbGllbnREYXRhU2NoZWR1bGUiLCJHZXQtQ2xpZW50RGF0YVN0YXR1cyIsIkNvbmZpZ3VyZS1Qcml2YXRlUHVibGljVFAiLCJDcmVhdGUtVGFjdGljYWxQYXJhbWV0ZXJzIiwiVXBkYXRlLVRhY3RpY2FsUGFyYW1ldGVycyIsIlZpZXctVGFjdGljYWxQYXJhbWV0ZXJzIiwiRGVwbG95LVRhY3RpY2FsUGFyYW1ldGVycyIsIkNyZWF0ZS1EeW5hbWljUGFyYW1ldGVycyIsIlVwZGF0ZS1EeW5hbWljUGFyYW1ldGVycyIsIlZpZXctRHluYW1pY1BhcmFtZXRlcnMiLCJDcmVhdGUtQ3Jvc3NDb3JlQ29uZmlnIiwiVmlldy1Dcm9zc0NvcmVDb25maWciLCJWaWV3LVNhbGVzZm9yY2UiLCJWaWV3LUJQUyIsIlZpZXctU2VydmljZU5vdyIsIlZpZXctQmlsbGluZyIsIlZpZXctTE1TIiwiQWNjZXNzLUJpbGxpbmdEYXRhIiwiVmlldy1GcmF1ZE5ldCIsIlZpZXctQ2xpZW50Q29tbXVuaXR5UG9ydGFsIiwiRnVsbEFjY2Vzcy1DbGllbnRDb21tdW5pdHlQb3J0YWwiLCJWaWV3LVN0cmF0ZWd5RmlsZSIsIlVwbG9hZC1TdHJhdGVneUZpbGUiLCJEb3dubG9hZC1TdHJhdGVneUZpbGUiLCJEZWxldGUtU3RyYXRlZ3lGaWxlIiwiVmlldy1DYXNlTWFuYWdlciIsIlZpZXctUmVwb3J0aW5nIiwiVmlldy1Xb3JrZmxvd3MiLCJDcmVhdGUtV29ya2Zsb3dzIiwiUm90YXRlLVNpZ25pbmdLZXkiLCJEb3dubG9hZC1EYXRhRXhwb3J0IiwiVmlldy1EYXRhRXhwb3J0IiwiQ3JlYXRlLU5vdGVzIiwiRGVsZXRlLU5vdGVzIiwiVXBkYXRlLU5vdGVzIiwiVmlldy1Ob3RlcyIsIkRlbGV0ZS1Eb2N1bWVudCIsIlZpZXctRG9jdW1lbnQiLCJEb3dubG9hZC1Eb2N1bWVudCIsIlZpZXctRGF0YVZpZXdlciIsIlByaW50LURhdGFWaWV3ZXIiLCJQdWJsaXNoLUJhdGNoRmlsZSIsIkxpc3QtUHJvY2Vzc2VkQmF0Y2hGaWxlcyIsIkxpc3QtQmF0Y2hTZXJ2aWNlSWRzIiwiVmlldy1SZXBvcnRCYXRjaEZpbGUiLCJEZWxldGUtRGF0YUV4cG9ydCIsIlZpZXctRGVzaWduU3R1ZGlvIl0sInRlbmFudElkIjoiVEVOQU5UMSIsImV4cCI6MTU4Njc3NzMzMCwiaWF0IjoxNTg2NzY2NTMwLCJqdGkiOiIzMmIzZTZhMC1lOTMyLTRjNGMtOWNhOS05ODllMDNkOWU2NTkifQ.p0JwUWPK-NwWrdzJFOTkwPwLGqZE92qjl-1u1zOdQoGzkL9Lf5g3MZ8XPl4LqoNdgi_WXjoJNgCGclM-f88B3g' \
+--header 'X-Correlation-Id: d82d2e25-d440-48b6-b863-5ee38eef35fc' \
+--data '{
+  "Application-DV": {
+    "Credit Card Number": "123",
+    "Proof of Document Supplied": "Y",
+    "IndividualJoint": "Single",
+    "Payment Protection": "N",
+    "Applicant": {
+      "Time with Bank Years": "11",
+      "Cheque or Debit Card Held": "N",
+      "Residential Status": "O"
+    },
+    "Product Details": [{
+      "Membership Number": "123",
+      "Purpose of Loan": "D",
+      "Monthly Installment Amount": "0",
+      "Privacy Agreement Flag": "N",
+      "ProductType": "02",
+      "Online Banking Account Holder": "N",
+      "Other Monthly Expenses": "0",
+      "Requested Amount": "10000",
+      "Requested Term": "12"
+    }],
+    "AccountNumber": "123"
+  },
+  "Product Details-DV": {"Bank Current Account Holder": "N"},
+  "Applicant-DV": {"APP": {
+    "ADD": [{
+      "YearsAtAddress": "11",
+      "HouseNumber": "12",
+      "State": "AL",
+      "Country": "US",
+      "City": "MAXWELL AFB",
+      "Address Line 1": "1148 SMITH ST",
+      "Postcode": "361131510"
+    }],
+    "MaritalStatus": "S",
+    "NME": [{
+      "Suffix": "Mrs",
+      "FirstName": "Gloria",
+      "LastName": "Lebrato"
+    }],
+    "GrossMthlyIncome": "1000",
+    "EMP": [{
+      "YearsWithEmployer": "11",
+      "EmployerName": "EXPERIAN"
+    }],
+    "DateofBirth": "19801020",
+    "CONT": [{
+      "PhoneNumber": "9725551212",
+      "EmailAddress": "a@b.com"
+    }],
+    "SSN": "666010020"
+  }}
+}
+'
